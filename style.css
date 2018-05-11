@@ -1,0 +1,76 @@
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.show-ib {
+  display: inline-block !important;
+}
+
+.chat-window {
+  border: 2px solid orange;
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+}
+
+.chat-window .chat-list-container {
+  width: 100%;
+}
+
+.chat-window .chat-list-container .title {
+  background: lightsalmon;
+}
+
+.chat-window .chat-list-container .chat-list-item {
+  margin: 5px 0;
+}
+
+.chat-window .chat-list-container .chat-list-msg .message {
+  padding: 12px;
+}
+
+.chat-window .chat-list-container .chat-title {
+  display: inline-block;
+  margin: 2px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.username,
+.message-text,
+.timestamp {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.username {
+  width: 50px;
+}
+
+.message-text {
+  width: 170px;
+}
+
+.timestamp {
+  width: 50px;
+}
+
+.chat-window .chat-add {
+  background: #acacac;
+  padding: 5px;
+}
+.chat-window .chat-add .chat-input-message {
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 6px;
+  width: calc(100% - 90px);
+}
+.chat-window .chat-add .chat-input-message:focus {
+  outline: none;
+}
+.chat-window .chat-add .chat-input-button {
+  padding: 5px 1px;
+  width: 70px;
+}
